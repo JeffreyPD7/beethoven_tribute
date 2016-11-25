@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{Code_v1 permissions enabled/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/bl" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/bl/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/clean-css" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/clean-css/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/cross-spawn" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/cross-spawn/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/dashdash" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/dashdash/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/easy-extender" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/easy-extender/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/engine.io" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/engine.io/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/engine.io-parser" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/engine.io-parser/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/fined" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/fined/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/gauge" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/gauge/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/getpass" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/getpass/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/glob-stream" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/glob-stream/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/globule" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/globule/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/gulp" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/gulp/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/gulp-concat" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/gulp-concat/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/gulp-minify-css" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/gulp-minify-css/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/gulp-sass" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/gulp-sass/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/gulp-util" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/gulp-util/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/har-validator" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/har-validator/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/is-absolute" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/is-absolute/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/isobject" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/isobject/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/meow" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/meow/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/mkdirp" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/mkdirp/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/node-gyp" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/node-gyp/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/node-sass" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/node-sass/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/ordered-read-streams" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/ordered-read-streams/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/portscanner" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/portscanner/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/resp-modifier" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/resp-modifier/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/rimraf" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/rimraf/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/sass-graph" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/sass-graph/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/send" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/send/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/socket.io-client" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/socket.io-client/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/socket.io-parser" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/socket.io-parser/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/sshpk" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/sshpk/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/through2" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/through2/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/time-require" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/time-require/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/vinyl-fs" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/vinyl-fs/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/vinyl-sourcemaps-apply" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/vinyl-sourcemaps-apply/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/BackupNode_modules (copy)/yargs-parser" libraries="{Code_v1 permissions enabled/storage/BackupNode_modules (copy)/yargs-parser/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/Browser-sync/easy-extender" libraries="{Code_v1 permissions enabled/storage/Browser-sync/easy-extender/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/Browser-sync/engine.io" libraries="{Code_v1 permissions enabled/storage/Browser-sync/engine.io/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/Browser-sync/engine.io-parser" libraries="{Code_v1 permissions enabled/storage/Browser-sync/engine.io-parser/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/Browser-sync/portscanner" libraries="{Code_v1 permissions enabled/storage/Browser-sync/portscanner/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/Browser-sync/resp-modifier" libraries="{Code_v1 permissions enabled/storage/Browser-sync/resp-modifier/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/Browser-sync/send" libraries="{Code_v1 permissions enabled/storage/Browser-sync/send/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/Browser-sync/socket.io-client" libraries="{Code_v1 permissions enabled/storage/Browser-sync/socket.io-client/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/Browser-sync/socket.io-parser" libraries="{Code_v1 permissions enabled/storage/Browser-sync/socket.io-parser/node_modules}" />
+    <file url="file://$PROJECT_DIR$/storage/Grunt" libraries="{Code_v1 permissions enabled/storage/Grunt/node_modules}" />
+  </component>
+</project>

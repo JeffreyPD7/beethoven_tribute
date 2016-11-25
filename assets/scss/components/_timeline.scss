@@ -1,0 +1,62 @@
+.timeline {
+  margin-top: 300px;
+  height:1700px;
+
+  h2, h3 {
+    position: absolute;
+    color: #ffffff;
+
+    @media only screen and (min-width: 768px) and (max-device-width: 991px) {
+      font-size: 18px !important;
+    }
+  }
+}
+
+.timeline__imageStairs {
+  position: absolute;
+  //margin-left: 388px;
+  left: 388px;
+}
+
+.timeline__1770 {
+  margin-top: 35px;
+  margin-left: 680px;
+}
+
+.timeline__1783 {
+  margin-top: 95px;
+  margin-left: 660px;
+}
+
+.timeline__1787 {
+
+  h2:nth-child(1) {
+    margin-top: 170px;
+    margin-left: 600px;
+  }
+
+  h2:nth-child(2) {
+    margin-top: 170px;
+    margin-left: 690px;
+  }
+}
+
+.timeline__1792 {
+  margin-top: 220px;
+
+  h2 {
+    margin-left: 400px;
+  }
+
+  h3 {
+    //margin-top: 200px;
+    margin-left: 10px;
+    //width: 100px;
+  }
+
+  //h2:nth-child(2) {
+  //  //margin-top: 200px;
+  //  margin-left: 0px;
+  //  //width: 100px;
+
+}
