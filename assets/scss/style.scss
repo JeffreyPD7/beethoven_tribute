@@ -12,7 +12,32 @@ body {
   border: 2px solid yellow;
 }
 
+//Hot Keys
 .placeholder {
   background-color: rgba(0, 0, 255, .2);
   //border: 1px solid yellow;
 }
+
+//Smaller Mobile Sizes//////
+
+//@media (max-width: 767px) {
+//  .container {
+//    width: 360px;
+//  }
+//}
+
+////Large Devices (Desktop - Laptop)
+//@media (min-width: 992px) and (max-width: 1199px) {
+//  Blank
+//}
+//
+////Medium Devices (Laptop - Tablet)
+//@media (min-width: 768px) and (max-width: 991px) {
+//  Blank
+//}
+//
+////Small Devices (Tablet - Mobile)
+//@media (max-width: 767px) {
+//  Blank;
+//
+//}
