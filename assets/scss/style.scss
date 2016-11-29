@@ -2,6 +2,9 @@
 @import './components/header';
 @import './components/biography';
 @import './components/timeline';
+@import './components/gradient';
+@import './components/main-content';
+
 
 body {
   background-color: #333333;
@@ -9,14 +12,29 @@ body {
 }
 
 .container {
-  border: 2px solid yellow;
+  //border: 2px solid yellow;
 }
 
 //Hot Keys
-.placeholder {
+
+//Placeholder
+.plc {
   background-color: rgba(0, 0, 255, .2);
-  //border: 1px solid yellow;
+  border: 2px solid yellow;
 }
+
+//Fonts
+@font-face {
+  font-family: 'sail';
+  src: url('fonts/sail/Sail-Regular.ttf');
+  font-weight: 500;
+  //font-style: italic;
+}
+
+
+
+//Mixins
+//naked_link()
 
 //Smaller Mobile Sizes//////
 
@@ -26,18 +44,26 @@ body {
 //  }
 //}
 
+
+
 ////Large Devices (Desktop - Laptop)
 //@media (min-width: 992px) and (max-width: 1199px) {
-//  Blank
+//  //Blank
 //}
 //
 ////Medium Devices (Laptop - Tablet)
 //@media (min-width: 768px) and (max-width: 991px) {
-//  Blank
+//  //Blank
 //}
 //
 ////Small Devices (Tablet - Mobile)
 //@media (max-width: 767px) {
-//  Blank;
+//  //Blank;
 //
+//}
+
+
+//Selecting all with starting Class name
+//div[class^='col'] {
+//  padding: 0 !important;
 //}

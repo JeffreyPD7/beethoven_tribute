@@ -14,7 +14,7 @@
 
 .header__imageTitle {
   position: absolute;
-  top: 13px;
+  top: 20px;
   left: 10px; }
   @media (max-width: 767px) {
     .header__imageTitle {
@@ -50,7 +50,8 @@
 .biography__text {
   margin-top: 30px; }
   .biography__text h3 {
-    font-size: 20px;
+    font-family: sail;
+    font-size: 22px;
     padding: 0; }
   .biography__text h3:nth-child(1) {
     margin-top: 0; }
@@ -111,7 +112,7 @@
       margin-bottom: 18px; } }
 
 .timeline {
-  margin-top: 300px;
+  margin-top: 200px;
   height: 1700px; }
   .timeline h2, .timeline h3 {
     position: absolute;
@@ -122,37 +123,166 @@
 
 .timeline__imageStairs {
   position: absolute;
-  left: 388px; }
+  left: 387px; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .timeline__imageStairs {
+      left: 308px; }
+      .timeline__imageStairs img {
+        width: 400px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .timeline__imageStairs {
+      left: 0px; }
+      .timeline__imageStairs img {
+        width: 200px; } }
 
-.timeline__1770 {
-  margin-top: 35px;
-  margin-left: 680px; }
+.timeline__textYears {
+  height: auto; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .timeline__textYears h3 {
+      font-size: 22px; } }
+  .timeline__textYears .timeline__1770 {
+    margin-top: 15px; }
+    .timeline__textYears .timeline__1770 div > div:nth-child(2) {
+      padding: 0; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .timeline__textYears .timeline__1770 {
+        margin-top: 10px; }
+        .timeline__textYears .timeline__1770 div > div:nth-child(2) h3 {
+          line-height: 20px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1770 {
+        margin-top: 0; }
+        .timeline__textYears .timeline__1770 h3 {
+          line-height: 0; } }
+  .timeline__textYears .timeline__1783 {
+    margin-top: 60px; }
+    .timeline__textYears .timeline__1783 div > div:nth-child(2) {
+      padding: 0; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .timeline__textYears .timeline__1783 {
+        margin-top: 50px; }
+        .timeline__textYears .timeline__1783 div > div:nth-child(2) h3 {
+          line-height: 25px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1783 {
+        margin-top: 20px; } }
+  .timeline__textYears .timeline__1787 {
+    margin-top: 70px;
+    text-align: right; }
+    .timeline__textYears .timeline__1787 div > div:nth-child(2) {
+      padding: 0; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .timeline__textYears .timeline__1787 {
+        margin-top: 60px; }
+        .timeline__textYears .timeline__1787 div > div:nth-child(2) h3 {
+          line-height: 25px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1787 {
+        display: none; } }
+  .timeline__textYears .timeline__1792 {
+    margin-top: 70px; }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1792 {
+        display: none; } }
+  .timeline__textYears .timeline__1800 {
+    margin-top: 140px; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .timeline__textYears .timeline__1800 {
+        margin-top: 115px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1800 {
+        display: none; } }
+  .timeline__textYears .timeline__1801 {
+    margin-top: 180px; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .timeline__textYears .timeline__1801 {
+        margin-top: 170px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1801 {
+        display: none; } }
+  .timeline__textYears .timeline__1802 {
+    margin-top: 70px;
+    text-align: right; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .timeline__textYears .timeline__1802 {
+        margin-top: 60px; }
+        .timeline__textYears .timeline__1802 div > div:nth-child(2) {
+          padding: 0; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1802 {
+        display: none; } }
+  .timeline__textYears .timeline__1813 {
+    margin-top: 280px;
+    text-align: right; }
+    .timeline__textYears .timeline__1813 div > div:nth-child(2) {
+      padding: 0; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .timeline__textYears .timeline__1813 {
+        margin-top: 250px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1813 {
+        display: none; } }
+  .timeline__textYears .timeline__1814 {
+    margin-top: 70px; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .timeline__textYears .timeline__1814 {
+        margin-top: 60px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1814 {
+        display: none; } }
+  .timeline__textYears .timeline__1815 {
+    margin-top: 130px; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .timeline__textYears .timeline__1815 {
+        margin-top: 120px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1815 {
+        display: none; } }
+  .timeline__textYears .timeline__1824 {
+    margin-top: 190px; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .timeline__textYears .timeline__1824 {
+        margin-top: 180px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1824 {
+        display: none; } }
+  .timeline__textYears .timeline__1825-1826 {
+    margin-top: 60px;
+    text-align: right; }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .timeline__textYears .timeline__1825-1826 {
+        margin-top: 50px; }
+        .timeline__textYears .timeline__1825-1826 div > div:nth-child(2) {
+          padding: 0; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1825-1826 {
+        display: none; } }
+  .timeline__textYears .timeline__1827 {
+    margin-top: 290px; }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .timeline__textYears .timeline__1827 {
+        display: none; } }
 
-.timeline__1783 {
-  margin-top: 95px;
-  margin-left: 660px; }
+.gradient {
+  background: linear-gradient(to top, black, transparent);
+  height: 300px; }
 
-.timeline__1787 h2:nth-child(1) {
-  margin-top: 170px;
-  margin-left: 600px; }
+.main-content {
+  background-color: black; }
 
-.timeline__1787 h2:nth-child(2) {
-  margin-top: 170px;
-  margin-left: 690px; }
-
-.timeline__1792 {
-  margin-top: 220px; }
-  .timeline__1792 h2 {
-    margin-left: 400px; }
-  .timeline__1792 h3 {
-    margin-left: 10px; }
+.stars {
+  background: url("../img/star.png");
+  height: 500px; }
 
 body {
   background-color: #333333;
   height: 4000px; }
 
-.container {
+.plc {
+  background-color: rgba(0, 0, 255, 0.2);
   border: 2px solid yellow; }
 
-.placeholder {
-  background-color: rgba(0, 0, 255, 0.2); }
+@font-face {
+  font-family: 'sail';
+  src: url("fonts/sail/Sail-Regular.ttf");
+  font-weight: 500; }
