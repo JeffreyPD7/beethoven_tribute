@@ -1,13 +1,40 @@
-
 .main-content {
-  background-color: black;
+    background-color: black;
+    height: 2000px;
 }
 
-.star-animation {
-  background: url("../img/star.png");
-  height:500px;
+.inner-gradient {
+  background: linear-gradient(to bottom, black, transparent);
+  height: 300px;
+  width: 100%;
+
+  //position: absolute;
+  //left:0;
 }
 
-//blank
+@import 'star-animation';
+
+.beethoven-picture {
+  //z-index: 10;
+  position: absolute;
+  bottom: 0;
+  left: 28%;
+
+  .imgGradient {
+    z-index: 9;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .img_beethoven-2 {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+  }
+}
+
+@import 'piano';
+
 
 

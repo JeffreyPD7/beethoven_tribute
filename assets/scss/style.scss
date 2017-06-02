@@ -1,9 +1,14 @@
 
+@import './components/hot-kit/hot-kit';
+
 @import './components/header';
 @import './components/biography';
 @import './components/timeline';
 @import './components/gradient';
 @import './components/main-content';
+@import './components/piano';
+
+
 
 
 body {
@@ -67,3 +72,5 @@ body {
 //div[class^='col'] {
 //  padding: 0 !important;
 //}
+
+//Fuck this

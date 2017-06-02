@@ -1,0 +1,210 @@
+.star-animation {
+    height: 800px;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    overflow: hidden;
+    // display: block;
+    // z-index: 0;
+    $small-diamond-size: .5;
+    $medium-diamond-size: 1.5;
+    $large-diamond-size: 2.5;
+    $amount-of-stars: 50;
+    $diamonds-pushed: 90%;
+    @function diamond($size:50,$amount:1,$color: mid-white) {
+        //Declaring variables
+        $value: null;
+        $x-location: null;
+        $y-location: null;
+        $top-diamond-clr: null;
+        $sides-diamond-clr: null;
+        $bottom-diamond-clr: null;
+        $topBlock-x: null;
+        $topBlock-y: null;
+        $leftBlock-x: null;
+        $leftBlock-y: null;
+        $rightBlock-x: null;
+        $rightBlock-y: null;
+        $bottomBlock-x: null;
+        $bottomBlock-y: null;
+        //Palletes
+        @if $color == white {
+            $top-diamond-clr: #FAFAFA;
+            $sides-diamond-clr: #F5F5F5;
+            $bottom-diamond: #EEEEEE;
+        }
+        @else if $color == mid-white {
+            $top-diamond-clr: #FAFAFA;
+            $sides-diamond-clr: #EEEEEE;
+            $bottom-diamond-clr: #BDBDBD;
+        }
+        //Initiating star construction
+        @for $i from 1 through $amount {
+            //Random Number Locations
+            $x-location: random(1000);
+            $y-location: random(670);
+            $topBlock-x: $x-location;
+            $topBlock-y: $y-location;
+            @if $value == null {
+                $value: '#{$topBlock-x}px #{$topBlock-y}px #{$top-diamond-clr}';
+            }
+            @else {
+                $value: '#{$value} , #{$topBlock-x}px #{$topBlock-y}px #{$top-diamond-clr}';
+            }
+            $leftBlock-x: $x-location - $size;
+            $leftBlock-y: $y-location;
+            $value: '#{$value} , #{$leftBlock-x}px #{$leftBlock-y}px #{$sides-diamond-clr}';
+            $rightBlock-x: $x-location;
+            $rightBlock-y: $y-location + $size;
+            $value: '#{$value} , #{$rightBlock-x}px #{$rightBlock-y}px #{$sides-diamond-clr}';
+            $bottomBlock-x: $x-location - $size;
+            $bottomBlock-y: $y-location + $size;
+            $value: '#{$value} , #{$bottomBlock-x}px #{$bottomBlock-y}px #{$bottom-diamond-clr}';
+        }
+        @return unquote($value);
+    }
+
+    .small-diamonds {
+        animation: animStar 50s linear infinite;
+        top: 500;
+        width: 1px;
+        height: 1px;
+        position: absolute;
+        // display: block;
+        // width: 10px;
+        // height: 10px;
+        // background-color: white;
+
+
+
+        &:before {
+            @include pseudo;
+            // z-index: 25;
+            box-shadow: diamond($small-diamond-size,$amount-of-stars);
+            width: #{$small-diamond-size}px;
+            height: #{$small-diamond-size}px;
+            transform: rotate(-45deg);
+        }
+
+        &:after {
+            @include pseudo;
+            box-shadow: diamond($small-diamond-size,$amount-of-stars);
+            width: #{$small-diamond-size}px;
+            height: #{$small-diamond-size}px;
+            transform: rotate(45deg);
+        }
+    }
+
+    .small-diamonds-pushed {
+        position: absolute;
+        left: $diamonds-pushed;
+        animation: animStar 50s linear infinite;
+
+        &:before {
+            @include pseudo;
+            box-shadow: diamond($small-diamond-size,$amount-of-stars);
+            width: #{$small-diamond-size}px;
+            height: #{$small-diamond-size}px;
+            transform: rotate(-45deg);
+        }
+
+        &:after {
+            @include pseudo;
+            box-shadow: diamond($small-diamond-size,$amount-of-stars);
+            width: #{$small-diamond-size}px;
+            height: #{$small-diamond-size}px;
+            transform: rotate(45deg);
+        }
+    }
+
+    .medium-diamonds {
+        animation: animStar 100s linear infinite;
+
+        &:before {
+            @include pseudo;
+            box-shadow: diamond($medium-diamond-size,$amount-of-stars);
+            width: #{$medium-diamond-size}px;
+            height: #{$medium-diamond-size}px;
+            transform: rotate(-45deg);
+        }
+
+        &:after {
+            @include pseudo;
+            box-shadow: diamond($medium-diamond-size,$amount-of-stars);
+            width: #{$medium-diamond-size}px;
+            height: #{$medium-diamond-size}px;
+            transform: rotate(45deg);
+        }
+    }
+
+    .medium-diamonds-pushed {
+        position: absolute;
+        left: $diamonds-pushed;
+        animation: animStar 100s linear infinite;
+
+        &:before {
+            @include pseudo;
+            box-shadow: diamond($medium-diamond-size,$amount-of-stars);
+            width: #{$medium-diamond-size}px;
+            height: #{$medium-diamond-size}px;
+            transform: rotate(-45deg);
+        }
+
+        &:after {
+            @include pseudo;
+            box-shadow: diamond($medium-diamond-size,$amount-of-stars);
+            width: #{$medium-diamond-size}px;
+            height: #{$medium-diamond-size}px;
+            transform: rotate(45deg);
+        }
+    }
+
+    .large-diamonds {
+        animation: animStar 150s linear infinite;
+
+        &:before {
+            @include pseudo;
+            box-shadow: diamond($large-diamond-size,$amount-of-stars);
+            width: #{$large-diamond-size}px;
+            height: #{$large-diamond-size}px;
+            transform: rotate(-45deg);
+        }
+
+        &:after {
+            @include pseudo;
+            box-shadow: diamond($large-diamond-size,$amount-of-stars);
+            width: #{$large-diamond-size}px;
+            height: #{$large-diamond-size}px;
+            transform: rotate(45deg);
+        }
+    }
+
+    .large-diamonds-pushed {
+        position: absolute;
+        left: $diamonds-pushed;
+        animation: animStar 150s linear infinite;
+
+        &:before {
+            @include pseudo;
+            box-shadow: diamond($large-diamond-size,$amount-of-stars);
+            width: #{$large-diamond-size}px;
+            height: #{$large-diamond-size}px;
+            transform: rotate(-45deg);
+        }
+
+        &:after {
+            @include pseudo;
+            box-shadow: diamond($large-diamond-size,$amount-of-stars);
+            width: #{$large-diamond-size}px;
+            height: #{$large-diamond-size}px;
+            transform: rotate(45deg);
+        }
+    }
+    @keyframes animStar {
+        from {
+            transform: translateX(0px);
+        }
+
+        to {
+            transform: translateX(-1000px);
+        }
+    }
+}

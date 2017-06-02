@@ -1,21 +1,30 @@
 
+@import "hot-kit/hot-kit";
+
 .header {
   background-color: #003366;
   height: 230px;
   width: 100%;
 
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @include mq('desktop') {
     height: 205px;
+    //background-color: yellow;
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+  @include mq('tablet') {
     height: 160px;
   }
 
-  @media (max-width: 767px) {
+  @include mq('tablet-small') {
     height: 160px;
-    //margin: 0;
-    //padding: 0;
+  }
+
+  @include mq('phablet') {
+    height: 130px;
+  }
+
+  @include mq('phone-wide') {
+    height: 110px;
   }
 }
 
@@ -24,15 +33,15 @@
   top: 20px;
   left: 10px;
 
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @include mq('desktop') {
     //height: 205px;
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+  @include mq('tablet') {
     //height: 160px;
   }
 
-  @media (max-width: 767px) {
+  @include mq('tablet-small') {
     left: 0px;
   }
 }
