@@ -11,11 +11,7 @@ gulp.task('serve',['sass'],function() {
 		server: "./public"
 	});
 
-	gulp.watch(['assets/scss/*.scss','assets/scss/**/*.scss'],['sass']);
-
-	// gulp.watch(['assets/scss/*.scss'],['styles']
-	//           ,['assets/scss/**/*.scss'],['assets/scss/1_L1170px/**/*.scss'])
-	// 		  .on('change',browserSync.reload);
+	gulp.watch(['scss/*.scss','scss/**/*.scss'],['sass']);
 
 	// gulp.watch(['assets/scss/**/*.scss'],['assets/scss/1_L1170px/**/*.scss']);
 	gulp.watch('public/*.html').on('change',browserSync.reload);
@@ -23,7 +19,7 @@ gulp.task('serve',['sass'],function() {
 
 //Setting Sass
 gulp.task('sass', function() {
-    return gulp.src('assets/scss/style.scss')
+    return gulp.src('scss/main.stl.scss')
         .pipe(sass().on('error',sass.logError))
         .pipe(gulp.dest('./public/css/'))
         .pipe(browserSync.reload({stream: true}));
@@ -37,6 +33,6 @@ gulp.task('sass', function() {
 // 		.pipe(browserSync.stream());
 // });
 
-//Run tasks on defdault
+//Run tasks on default
 gulp.task('default', ['serve']);
 

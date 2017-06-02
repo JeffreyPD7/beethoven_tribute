@@ -1,0 +1,32 @@
+
+@import './assets/hot-kit/hot-kit';
+
+// Sections
+@import './sections/header.scn';
+@import './sections/biography.scn';
+@import './sections/timeline.scn';
+@import './sections/gradient.scn';
+@import './sections/main-content.scn';
+@import './sections/piano.scn';
+
+body {
+  background-color: #333333;
+  height: 4000px;
+}
+
+//Placeholder
+.plc {
+  background-color: rgba(0, 0, 255, .2);
+  border: 2px solid yellow;
+}
+
+//Fonts
+@font-face {
+  font-family: 'sail';
+  src: url('fonts/sail/Sail-Regular.ttf');
+  font-weight: 500;
+  //font-style: italic;
+}
+
+
+
