@@ -31,7 +31,7 @@
 .header__imageTitle{
   position: absolute;
   top: 20px;
-  left: 10px;
+  left: 0px;
 
   @include mq('desktop') {
     //height: 205px;
@@ -42,6 +42,6 @@
   }
 
   @include mq('tablet-small') {
-    left: 0px;
+    //left: 0px;
   }
 }
