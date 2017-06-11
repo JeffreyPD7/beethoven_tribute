@@ -306,6 +306,10 @@ CT - Avoiding content touching
     @include mq('phablet') {
       margin-top: 19%;
     }
+
+    @media (max-width: 520px) {
+      margin-top: 23%;
+    }
   }
 
   .timeline__1800 {
@@ -338,6 +342,10 @@ CT - Avoiding content touching
     @include mq('phablet') {
       margin-top: 11%;
     }
+
+    @media (max-width: 520px) {
+      margin-top: 15%;
+    }
   }
 
   .timeline__1801 {
@@ -368,6 +376,10 @@ CT - Avoiding content touching
 
     @include mq('phablet') {
       margin-top: 19%;
+    }
+
+    @media (max-width: 520px) {
+      margin-top: 25%;
     }
   }
 
@@ -408,6 +420,14 @@ CT - Avoiding content touching
     @include mq('phablet') {
       margin-top: 30%;
     }
+
+    @media (max-width: 550px) {
+      margin-top: 33%;
+    }
+
+    @media (max-width: 520px) {
+      margin-top: 40%;
+    }
   }
 
   .timeline__1813 {
@@ -444,6 +464,10 @@ CT - Avoiding content touching
     @media (max-width: 570px) {
       margin-top: 52%;
     }
+
+    @media (max-width: 540px) {
+      margin-top: 60%;
+    }
   }
 
   .timeline__1814 {
@@ -479,6 +503,10 @@ CT - Avoiding content touching
     @include mq('phablet') {
       margin-top: 19%;
     }
+
+    @media (max-width: 540px) {
+      margin-top: 25%;
+    }
   }
 
   .timeline__1815 {
@@ -509,6 +537,9 @@ CT - Avoiding content touching
       margin-top: 19%;
     }
 
+    @media (max-width: 520px) {
+      margin-top: 23%;
+    }
   }
 
   .timeline__1824 {
@@ -537,6 +568,10 @@ CT - Avoiding content touching
 
     @media (max-width: 570px) {
       margin-top: 25%;
+    }
+
+    @media (max-width: 520px) {
+      margin-top: 27%;
     }
   }
 
@@ -567,6 +602,10 @@ CT - Avoiding content touching
 
     @include mq('phablet') {
       margin-top: 11%;
+    }
+
+    @media (max-width: 520px) {
+      margin-top: 20%;
     }
   }
 
@@ -616,12 +655,7 @@ CT - Avoiding content touching
     }
   }
 
-  // Avoiding element touch of the top section
-  //.timeline__1813 {
-  //  @include mq('phablet') {
-  //    margin-top: 40%;
-  //  }
-  //}
+
 
 }
 
