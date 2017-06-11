@@ -1,3 +1,9 @@
+/* Reference Abbreviations
+
+CT - Avoiding content touching
+
+*/
+
 @import "../assets/hot-kit/hot-kit";
 
 .timeline {
@@ -20,11 +26,11 @@
     }
 
     @include mq('phablet') {
-      font-size: 15px;
+    //  Blank
     }
 
     @include mq('phone-wide') {
-      font-size: 10px;
+      font-size: 15px;
     }
   }
 }
@@ -96,9 +102,17 @@
 
     img {
       width: 150px;
-      height: 610px;
+      height: 580px;
     }
+  }
 
+  @include mq('phablet') {
+    top: 810px;
+    right: 10px;
+
+    img {
+      width: 100px;
+    }
   }
 }
 
@@ -161,6 +175,10 @@
         margin-left: -10px;
       }
     }
+
+    @include mq('phablet') {
+      //margin-top: 10%;
+    }
   }
 
   .timeline__1783 {
@@ -198,15 +216,23 @@
         margin-left: 40px;
       }
     }
+
+    @include mq('phablet') {
+      margin-top: 6%;
+      //margin-top: 10%;
+      //width:;
+    }
   }
 
   .timeline__1787 {
     margin-top: 70px;
     text-align: right;
+    //background-color: black;
+    //height: auto;
 
     div > div:nth-child(2) {
       //padding: 0;
-      padding-right: 30px;
+      //padding-right: 100px;
 
     }
 
@@ -240,6 +266,10 @@
         margin-left: -25px;
       }
     }
+
+    @include mq('phablet') {
+      margin-top: 8%;
+    }
   }
 
   .timeline__1792 {
@@ -264,9 +294,17 @@
     @media (max-width: 767px) {
       margin-top: 85px;
 
+      //h3 {
+      //  padding-right: 10px;
+      //}
+
       div > div:nth-child(2) h3 {
         margin-left: -25px;
       }
+    }
+
+    @include mq('phablet') {
+      margin-top: 19%;
     }
   }
 
@@ -296,6 +334,10 @@
         margin-left: -25px;
       }
     }
+
+    @include mq('phablet') {
+      margin-top: 11%;
+    }
   }
 
   .timeline__1801 {
@@ -320,8 +362,12 @@
       margin-top: 100px;
 
       div > div:nth-child(2) h3 {
-        margin-left: -25px;
+        //margin-left: -25px;
       }
+    }
+
+    @include mq('phablet') {
+      margin-top: 19%;
     }
   }
 
@@ -358,6 +404,10 @@
         margin-left: -25px;
       }
     }
+
+    @include mq('phablet') {
+      margin-top: 30%;
+    }
   }
 
   .timeline__1813 {
@@ -382,8 +432,17 @@
 
     //Small Devices (Tablet - Mobile)
     @media (max-width: 767px) {
-      //Blank;
+      //margin-top: 38%;
+      margin-top: 280px;
+    }
 
+    @include mq('phablet') {
+      //margin-top: 42%;
+      margin-top: 250px;
+    }
+
+    @media (max-width: 570px) {
+      margin-top: 52%;
     }
   }
 
@@ -408,9 +467,17 @@
 
     //Small Devices (Tablet - Mobile)
     @media (max-width: 767px) {
-      margin-top: 100px;
+      margin-top: 14%;
       text-align: right;
+    }
 
+    // Avoiding content touching from above
+    @media (max-width: 656px) {
+      margin-top: 18%;
+    }
+
+    @include mq('phablet') {
+      margin-top: 19%;
     }
   }
 
@@ -430,9 +497,18 @@
 
     //Small Devices (Tablet - Mobile)
     @media (max-width: 767px) {
-      margin-top: 80px;
+      margin-top: 14%;
       text-align: right;
     }
+
+    @include mq('phablet') {
+      margin-top: 15%;
+    }
+
+    @media (max-width: 570px) {
+      margin-top: 19%;
+    }
+
   }
 
   .timeline__1824 {
@@ -452,7 +528,15 @@
     //Small Devices (Tablet - Mobile)
     @media (max-width: 767px) {
       text-align: right;
-      margin-top: 130px;
+      margin-top: 15%;
+    }
+
+    @include mq('phablet') {
+      margin-top: 19%;
+    }
+
+    @media (max-width: 570px) {
+      margin-top: 25%;
     }
   }
 
@@ -478,15 +562,22 @@
     //Small Devices (Tablet - Mobile)
     @media (max-width: 767px) {
       text-align: right;
+      margin-top: 12%;
+    }
+
+    @include mq('phablet') {
+      margin-top: 11%;
     }
   }
 
   .timeline__1827 {
     margin-top: 290px;
+    text-align: center;
 
     h3 {
-      width: 100%;
-      margin: auto;
+      //width: 100%;
+      //text-align: center;
+      //margin: auto;
     }
 
     //Large Devices (Desktop - Laptop)
@@ -509,6 +600,28 @@
 
     }
   }
+
+  // Padding for scale size below 765px
+  .timeline__1770,
+  .timeline__1783,
+  .timeline__1787,
+  .timeline__1792,
+  .timeline__1800,
+  .timeline__1801,
+  .timeline__1802 {
+    @include mq('tablet-small') {
+      h3 {
+        padding-right: 12px;
+      }
+    }
+  }
+
+  // Avoiding element touch of the top section
+  //.timeline__1813 {
+  //  @include mq('phablet') {
+  //    margin-top: 40%;
+  //  }
+  //}
 
 }
 
