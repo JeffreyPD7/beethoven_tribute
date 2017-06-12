@@ -468,6 +468,14 @@ CT - Avoiding content touching
     @media (max-width: 540px) {
       margin-top: 60%;
     }
+
+    @media (max-width: 430px) {
+      margin-top: 80%;
+    }
+
+    @media (max-width: 380px) {
+      margin-top: 100%;
+    }
   }
 
   .timeline__1814 {

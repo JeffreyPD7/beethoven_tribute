@@ -1,3 +1,5 @@
+@import "../assets/hot-kit/hot-kit";
+
 .main-content {
     background-color: black;
     height: 2000px;
@@ -15,22 +17,95 @@
 @import 'star-animation.scn';
 
 .beethoven-picture {
-  //z-index: 10;
+  // Dimension
+  $width: 500px;
+
   position: absolute;
   bottom: 0;
-  left: 28%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: $width;
+
+
+  // Responsive dimension deduction
+  $tablet-small: 38px;
+  $phablet: 40px;
+  $phone-wide: 130px;
+
+  @include mq('tablet-small') {
+    width: $width - $tablet-small;
+  }
+
+  @include mq('phablet') {
+    width: $width - $phablet;
+  }
+
+  @include mq('phone-wide') {
+    width: $width - $phone-wide;
+  }
 
   .imgGradient {
+    // Dimensions
+    $height: 321px;
+    $width: 488px;
+
     z-index: 9;
     position: absolute;
     bottom: 0;
+    max-height: $height;
+    max-width: $width;
+
+    @include mq('tablet-small') {
+      $new-width: $width - $tablet-small;
+      height: aspect-ratio($height, $width, $new-width);
+      width: $new-width;
+    }
+
+    @include mq('phablet') {
+      $new-width: $width - $phablet;
+      height: aspect-ratio($height, $width, $new-width);
+      width: $new-width;
+    }
+
+    @include mq('phone-wide') {
+      $new-width: $width - $phone-wide;
+      height: aspect-ratio($height, $width, $new-width);
+      width: $new-width;
+    }
   }
 
   .img_beethoven-2 {
+    // Dimensions
+    $height: 209px;
+    $width: 374px;
+
     z-index: 10;
     position: absolute;
     bottom: 0;
-    left: 5%;
+    left: 13%;
+    opacity: .90;
+    max-height: $height;
+    max-width: $width;
+
+    @include mq('tablet-small') {
+      $new-width: $width - $tablet-small;
+      height: aspect-ratio($height, $width, $new-width);
+      width: $new-width;
+    }
+
+    @include mq('phablet') {
+      $new-width: $width - $phablet;
+      height: aspect-ratio($height, $width, $new-width);
+      width: $new-width;
+    }
+
+    @include mq('phone-wide') {
+      $new-width: $width - $phone-wide;
+      height: aspect-ratio($height, $width, $new-width);
+      width: $new-width;
+    }
   }
 }
 
