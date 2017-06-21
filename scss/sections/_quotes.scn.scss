@@ -1,0 +1,90 @@
+@import "../assets/hot-kit/hot-kit";
+
+.quotes {
+  margin-top: -300px;
+
+  color: #ffffff;
+  font-family: "Californian FB";
+  font-size: 18px;
+  font-weight: bold;
+  opacity: .8;
+
+  h3 {
+    margin: 0px;
+    font-size: 20px;
+
+    @include mq('tablet-small') {
+      font-size: 18px;
+    }
+
+    @include mq('phablet') {
+      font-size: 14px;
+    }
+  }
+
+  .quote-one {
+
+    h3:nth-child(1) {
+      margin-left: 80px;
+    }
+
+    h3:nth-child(2) {
+      margin-left: 50px;
+    }
+
+    h3:nth-child(3) {
+      //margin-left: 80px;
+    }
+
+    h3:nth-child(4) {
+      margin-left: 30px;
+      color: #99ccff;
+    }
+
+    h3:nth-child(5) {
+      margin-left: 50px;
+      color: #99ccff;
+    }
+
+    h3:nth-child(6) {
+      margin-left: 80px;
+      color: #999999;
+    }
+  }
+
+  .quote-two {
+    margin-top: 5px;
+
+    @include mq('tablet') {
+      margin-top: 20px;
+    }
+
+    h3:nth-child(1) {
+      margin-right: 50px;
+    }
+
+    h3:nth-child(2) {
+      margin-right: 20px;
+    }
+
+    h3:nth-child(3) {
+      //margin-left: 80px;
+    }
+
+    h3:nth-child(4) {
+      margin-right: 100px;
+      //color: #99ccff;
+      color: #fff;
+    }
+
+    h3:nth-child(5) {
+      margin-right: 50px;
+      color: #99ccff;
+    }
+
+    h3:nth-child(6) {
+      margin-right: 30px;
+      color: #999999;
+    }
+  }
+}

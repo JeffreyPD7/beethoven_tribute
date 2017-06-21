@@ -1,0 +1,65 @@
+
+@import "../assets/hot-kit/hot-kit";
+
+.sources {
+  padding-top: 50px;
+  background-color: black;
+  text-align: center;
+  user-select: none;
+
+  input{display:none}
+
+  * {
+    transition: all .5s ease-in-out;
+  }
+
+  label {
+    width: 100%;
+    margin-bottom: 30px;
+    cursor: pointer;
+    height: 100px;
+
+    img{
+      user-select: none;
+      //transform: rotate(90deg);
+    }
+  }
+
+  h1 {
+    color: white;
+    font-family: "Californian FB";
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  #source-box {
+    @mixin all-h-tags() {
+      color: #000;
+    }
+  }
+
+  input:checked + .source-animation{
+    height: 400px;
+
+    @mixin all-h-tags() {
+      color: #000;
+    }
+
+    //h3 {
+    //  color: black;
+    //  display: inline !important;
+    //}
+
+    img {
+      transform: rotateX(180deg);
+    }
+  }
+
+  //#source-box:target {
+  //  color: #fff;
+  //}
+
+
+}

@@ -6,12 +6,15 @@
 @import './sections/biography.scn';
 @import './sections/timeline.scn';
 @import './sections/gradient.scn';
+@import './sections/quotes.scn';
 @import './sections/main-content.scn';
 @import './sections/piano.scn';
+@import './sections/sources.scn';
 
 body {
   background-color: #333333;
-  height: 4000px;
+  //height: 4000px;
+  height: auto;
 }
 
 //Placeholder
@@ -28,6 +31,11 @@ body {
   //font-style: italic;
 }
 
+// Centering columns
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
 // Prevent Overscrolling
 //html {
 //  overflow: hidden;

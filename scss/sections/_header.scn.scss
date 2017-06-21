@@ -26,6 +26,14 @@
   @include mq('phone-wide') {
     height: 110px;
   }
+
+  &:after {
+    @include pseudo();
+    background: linear-gradient(rgba(white,.1),rgba(black,.2));
+    //background: black;
+    height: inherit;
+    width: inherit;
+  }
 }
 
 .header__imageTitle{
