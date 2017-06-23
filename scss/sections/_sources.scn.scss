@@ -18,10 +18,10 @@
     margin-bottom: 30px;
     cursor: pointer;
     height: 100px;
-
+    color: white;
+    
     img{
       user-select: none;
-      //transform: rotate(90deg);
     }
   }
 
@@ -34,33 +34,99 @@
     text-align: center;
   }
 
-  #source-box {
-    @mixin all-h-tags() {
-      color: #000;
-    }
-  }
+  .source-box {display:none;}
 
   input:checked + .source-animation{
-    height: 400px;
+    height: auto;
+    background-color: rgba(#333, .7);
+    border-radius: 5px;
 
-    @mixin all-h-tags() {
-      color: #000;
+    .source-box {
+      display: inline;
+      margin-bottom: 60px;
+      //width: inherit;
+
+      .info {
+        padding: 10px 0;
+
+        @include mq('tablet-small') {
+          padding: 35px 0;
+        }
+
+        h3 {
+          font-family: "Californian FB";
+          font-size: 30px;
+          font-weight: bold;
+          //text-transform: uppercase;
+        }
+      }
+
+      div > div:nth-child(1) {
+        text-align: left;
+
+        h3, a {
+          margin-left: 5%;
+        }
+
+        @include mq('tablet-small') {
+          text-align: center;
+          margin: 0;
+        }
+      }
+
+      div > div:nth-child(2) {
+        text-align: right;
+
+        h3, a {
+          margin-right: 5%;
+        }
+
+        @include mq('tablet-small') {
+          text-align: center;
+          margin: 0;
+        }
+      }
+
+      div:nth-child(1) > div:nth-child(2) a,
+      div:nth-child(2) > div:nth-child(2) a {
+        font-size: 12px;
+
+        @include mq('desktop') {
+          font-size: 11px;
+        }
+
+        @include mq('tablet-small') {
+          font-size: 8px;
+        }
+      }
+
+      a {
+        font-size: 16px;
+        display: block;
+      }
+
+      //div:nth-child(4) > div {
+      //  text-align: center !important;
+      //
+      //  h3, a {
+      //    margin-left: 0 !important;
+      //  }
+      //
+      //  @include mq('tablet') {
+      //    text-align: left !important;
+      //    margin-left: 5%;
+      //  }
+      //
+      //  @include mq('tablet-small') {
+      //    text-align: center !important;
+      //    margin-left: 0;
+      //  }
+      //}
+
     }
-
-    //h3 {
-    //  color: black;
-    //  display: inline !important;
-    //}
 
     img {
       transform: rotateX(180deg);
     }
   }
-
-
-  //#source-box:target {
-  //  color: #fff;
-  //}
-
-
 }

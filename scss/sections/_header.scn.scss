@@ -52,4 +52,17 @@
   @include mq('tablet-small') {
     //left: 0px;
   }
+
+  .music {
+    //margin-top: 50px;
+    //display: none;
+    //position: absolute !important;
+    //right: 0;
+    
+    audio {
+      //position: absolute;
+      //right: 0;
+      //bottom: 0;
+    }
+  }
 }
