@@ -88,6 +88,10 @@
         height: $bl-key-height - $height-xs-drop;
         margin-right: 12px;
         width: 26px;
+
+        &:active {
+          height: ($bl-key-height + 3px) - $height-xs-drop;
+        }
       }
 
       @media (max-width: 520px) {
@@ -133,6 +137,10 @@
 
       @media (max-width: 600px) {
         height: $wh-key-height - $height-xs-drop;
+
+        &:active {
+          height: ($wh-key-height + 7px) - $height-xs-drop;
+        }
       }
     }
 

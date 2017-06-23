@@ -20,6 +20,14 @@
     @include mq('phablet') {
       font-size: 14px;
     }
+
+    @media (max-width: 497px) {
+      font-size: 12px;
+    }
+
+    @media (max-width: 400px) {
+      font-size: 11px;
+    }
   }
 
   .quote-one {
@@ -39,11 +47,23 @@
     h3:nth-child(4) {
       margin-left: 30px;
       color: #99ccff;
+
+      @media (max-width: 497px) {
+        margin-left: 10px;
+      }
+
+      @media (max-width: 410px) {
+        margin-left: -10px;
+      }
     }
 
     h3:nth-child(5) {
       margin-left: 50px;
       color: #99ccff;
+
+      @media (max-width: 395px) {
+        margin-left: 10px;
+      }
     }
 
     h3:nth-child(6) {
